@@ -1,8 +1,7 @@
-# Open Banking Brazil - Authorization Samples
 
 ## Overview
 
-This repo intends to demonstrate how to address the OAuth2-based authorization security requirement for Brazilian Open Banking to use Amazon API Gateway to protect and authorize API accesses using an external [FAPI-compliant OIDC provider](./resources/oidc-provider-app) and a [Lambda Authorizer](./resources/lambda/lambda-auth.js).
+This repo intends to demonstrate how to address the OAuth2-based authorization security requirement to use Amazon API Gateway to protect and authorize API accesses using an external [FAPI-compliant OIDC provider](./resources/oidc-provider-app) and a [Lambda Authorizer](./resources/lambda/lambda-auth.js).
 *** 
 
 ## Prerequisites:
@@ -136,12 +135,5 @@ cdk destroy
 aws ecr delete-repository --repository-name oidc-provider-app
 ```
 
-## 4. Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## 5. License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
 
 
